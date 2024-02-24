@@ -2,8 +2,8 @@ import { Controller, Get, Post, Put, Delete, Body, ValidationPipe, Param, Query,
 import { NotesService } from './notes.service';
 import { NoteDto } from './dto/note.dto';
 import { Note } from './entities/note.entity';
-import { INoteQueryParams } from 'src/interfaces/note.interfaces';
-import { CustomRequest } from 'src/interfaces/common.interface';
+import { INoteQueryParams } from '../interfaces/note.interfaces';
+import { CustomRequest } from '../interfaces/common.interface';
 
 @Controller('notes')
 export class NotesController {

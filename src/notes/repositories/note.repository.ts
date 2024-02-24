@@ -3,7 +3,7 @@ import { InjectModel } from '@nestjs/mongoose';
 import { Injectable } from '@nestjs/common';
 import { NoteDto } from '../dto/note.dto';
 import { Note } from '../entities/note.entity';
-import { INoteQueryParams } from 'src/interfaces/note.interfaces';
+import { INoteQueryParams } from '../../interfaces/note.interfaces';
 
 @Injectable()
 export class NoteRepository {

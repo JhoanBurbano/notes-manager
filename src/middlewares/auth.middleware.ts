@@ -3,7 +3,7 @@
 import { Injectable, NestMiddleware } from '@nestjs/common';
 import { Response, NextFunction } from 'express';
 import { AuthService } from '../auth/auth.service';
-import { CustomRequest } from 'src/interfaces/common.interface';
+import { CustomRequest } from '../interfaces/common.interface';
 
 
 @Injectable()
